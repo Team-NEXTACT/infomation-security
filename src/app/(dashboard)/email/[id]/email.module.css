@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.emailContent {
+  background: var(--background);
+  border: 1px solid var(--gray-200);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.analysisSection {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.pdfResults {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--gray-100);
+  border-radius: 0.5rem;
+}
+
+.urlList {
+  margin-top: 1rem;
+}
+
+.urlList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.urlList li {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.suspicious {
+  color: var(--danger);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-left: 0.5rem;
+  font-size: 0.875rem;
+} 

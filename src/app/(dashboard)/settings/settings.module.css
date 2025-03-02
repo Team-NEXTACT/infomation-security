@@ -1,0 +1,53 @@
+.container {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.userInfo {
+  background: var(--background);
+  border: 1px solid var(--gray-200);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.actions {
+  margin-top: 2rem;
+}
+
+.logoutButton {
+  background-color: var(--danger);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.logoutButton:hover {
+  background-color: #b91c1c;
+}
+
+.userInfo p {
+  margin: 0.5rem 0;
+  color: var(--foreground);
+}
+
+.userInfo strong {
+  margin-right: 0.5rem;
+} 

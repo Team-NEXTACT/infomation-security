@@ -1,0 +1,95 @@
+.container {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.emailInfo {
+  background: var(--background);
+  border: 1px solid var(--gray-200);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.emailInfo h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.emailInfo p {
+  margin: 0.5rem 0;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.dangerousButton, .reportButton {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dangerousButton {
+  background-color: #dc2626;
+  color: white;
+}
+
+.dangerousButton:hover {
+  background-color: #b91c1c;
+  transform: translateY(-2px);
+}
+
+.reportButton {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.reportButton:hover {
+  background-color: #d97706;
+  transform: translateY(-2px);
+}
+
+.message {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--gray-100);
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message.success {
+  background-color: #dcfce7;
+  border-color: #86efac;
+  color: #166534;
+}
+
+.message.error {
+  background-color: #fee2e2;
+  border-color: #fca5a5;
+  color: #991b1b;
+} 
